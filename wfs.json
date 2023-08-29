@@ -1,0 +1,1052 @@
+[
+  {
+    "padre": "Asentamientos humanos",
+    "hijos": [
+      {
+        "nombre": "localidad_bahra",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:localidad_bahra",
+        "name": "Localidad"
+      },
+      {
+        "nombre": "sublocalidad_entidad_bahra",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:sublocalidad_entidad_bahra",
+        "name": "Sublocalidad"
+      },
+      {
+        "nombre": "bahra_base_antartica",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:bahra_base_antartica",
+        "name": "Base antártica"
+      }
+    ]
+  },
+  {
+    "padre": "Cartografía",
+    "hijos": [
+      {
+        "nombre": "cartas_100000",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:cartas_100000",
+        "name": "Cartas 1:100.000"
+      },
+      {
+        "nombre": "cartas_250000",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:cartas_250000",
+        "name": "Cartas 1:250.000"
+      },
+      {
+        "nombre": "cartas_50000",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:cartas_50000",
+        "name": "Cartas 1:50.000"
+      },
+      {
+        "nombre": "cartas_500000",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:cartas_500000",
+        "name": "Cartas 1:500.000"
+      }
+    ]
+  },
+  {
+    "padre": "Defensa y seguridad",
+    "hijos": [
+      {
+        "nombre": "complejos_fronterizos",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:complejos_fronterizos",
+        "name": "Complejos Fronterizos"
+      },
+      {
+        "nombre": "estructuras_operativas_y_defensivas_090102",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:estructuras_operativas_y_defensivas_090102",
+        "name": "Cuartel de bomberos"
+      },
+      {
+        "nombre": "estructuras_operativas_y_defensivas_FA517",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:estructuras_operativas_y_defensivas_FA517",
+        "name": "Edificio de seguridad"
+      },
+      {
+        "nombre": "instalacion_militar_SU001",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:instalacion_militar_SU001",
+        "name": "Instalación militar"
+      },
+      {
+        "nombre": "estructuras_operativas_y_defensivas_090101",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:estructuras_operativas_y_defensivas_090101",
+        "name": "Institución penitenciaria"
+      },
+      {
+        "nombre": "pasos_de_fronteras_internacionales",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:pasos_de_fronteras_internacionales",
+        "name": "Pasos de Fronteras Internacionales"
+      }
+    ]
+  },
+  {
+    "padre": "Fotografías aéreas",
+    "hijos": [
+      {
+        "nombre": "area_vuelos_dsr_sig",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:area_vuelos_dsr_sig",
+        "name": "Área de vuelos"
+      },
+      {
+        "nombre": "area_vuelos_vant_sig",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:area_vuelos_vant_sig",
+        "name": "Área de vuelos VANT"
+      }
+    ]
+  },
+  {
+    "padre": "Geodesia y demarcación",
+    "hijos": [
+      {
+        "nombre": "lineas_terrestres_070401",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_terrestres_070401",
+        "name": "Círculo polar"
+      },
+      {
+        "nombre": "departamento",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:departamento",
+        "name": "Departamento"
+      },
+      {
+        "nombre": "lineas_terrestres_070403",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_terrestres_070403",
+        "name": "Ecuador"
+      },
+      {
+        "nombre": "linea_de_limite_070112",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:linea_de_limite_070112",
+        "name": "Límite de Zona de Frontera"
+      },
+      {
+        "nombre": "linea_de_limite_070114",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:linea_de_limite_070114",
+        "name": "Límite de área protegida"
+      },
+      {
+        "nombre": "linea_de_limite_070110",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:linea_de_limite_070110",
+        "name": "Límite interdepartamental o de partido"
+      },
+      {
+        "nombre": "linea_de_limite_FA004",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:linea_de_limite_FA004",
+        "name": "Límite internacional"
+      },
+      {
+        "nombre": "linea_de_limite_070111",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:linea_de_limite_070111",
+        "name": "Límite interprovincial"
+      },
+      {
+        "nombre": "mar_territorial_argentino",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:mar_territorial_argentino",
+        "name": "Mar Territorial argentino"
+      },
+      {
+        "nombre": "pais",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:pais",
+        "name": "País"
+      },
+      {
+        "nombre": "plataforma_continental",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:plataforma_continental",
+        "name": "Plataforma Continental"
+      },
+      {
+        "nombre": "provincia",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:provincia",
+        "name": "Provincia"
+      },
+      {
+        "nombre": "ramsac_ntrip",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:ramsac_ntrip",
+        "name": "Red RAMSAC-NTRIP"
+      },
+      {
+        "nombre": "lineas_terrestres_070402",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_terrestres_070402",
+        "name": "Trópico"
+      },
+      {
+        "nombre": "zona_contigua_argentina",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:zona_contigua_argentina",
+        "name": "Zona Contigua argentina"
+      },
+      {
+        "nombre": "area_protegida",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:area_protegida",
+        "name": "Área protegida"
+      }
+    ]
+  },
+  {
+    "padre": "Hidrografía y oceanografía",
+    "hijos": [
+      {
+        "nombre": "lineas_de_zona_costera_BA040",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_zona_costera_BA040",
+        "name": "Accidente costero"
+      },
+      {
+        "nombre": "lineas_de_aguas_continentales_BH030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_aguas_continentales_BH030",
+        "name": "Acequia, zanja, zanjón"
+      },
+      {
+        "nombre": "lineas_de_aguas_continentales_BH010",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_aguas_continentales_BH010",
+        "name": "Acueducto"
+      },
+      {
+        "nombre": "ayuda_a_la_navegacion_BC101",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:ayuda_a_la_navegacion_BC101",
+        "name": "Baliza"
+      },
+      {
+        "nombre": "ayuda_a_la_navegacion_BC020",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:ayuda_a_la_navegacion_BC020",
+        "name": "Boya"
+      },
+      {
+        "nombre": "areas_de_aguas_continentales_BH020",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_aguas_continentales_BH020",
+        "name": "Canal"
+      },
+      {
+        "nombre": "lineas_de_aguas_continentales_BH020",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_aguas_continentales_BH020",
+        "name": "Canal"
+      },
+      {
+        "nombre": "puntos_de_aguas_continentales_BH180",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_aguas_continentales_BH180",
+        "name": "Catarata, cascada, salto"
+      },
+      {
+        "nombre": "areas_de_aguas_continentales_BH140",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_aguas_continentales_BH140",
+        "name": "Corriente de agua"
+      },
+      {
+        "nombre": "lineas_de_aguas_continentales_intermitentes",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_aguas_continentales_intermitentes",
+        "name": "Corriente de agua intermitente"
+      },
+      {
+        "nombre": "lineas_de_aguas_continentales_perenne",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_aguas_continentales_perenne",
+        "name": "Corriente de agua perenne"
+      },
+      {
+        "nombre": "puntos_de_aguas_continentales_BH051",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_aguas_continentales_BH051",
+        "name": "Dique"
+      },
+      {
+        "nombre": "areas_de_aguas_continentales_BH130",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_aguas_continentales_BH130",
+        "name": "Embalse"
+      },
+      {
+        "nombre": "areas_de_aguas_continentales_041101",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_aguas_continentales_041101",
+        "name": "Embalse rural"
+      },
+      {
+        "nombre": "puntos_de_aguas_continentales_041101",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_aguas_continentales_041101",
+        "name": "Embalse rural"
+      },
+      {
+        "nombre": "areas_de_aguas_continentales_intermitenet",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_aguas_continentales_intermitenet",
+        "name": "Espejo de agua intermitente"
+      },
+      {
+        "nombre": "areas_de_aguas_continentales_perenne",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_aguas_continentales_perenne",
+        "name": "Espejo de agua perenne"
+      },
+      {
+        "nombre": "ayuda_a_la_navegacion_BC050",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:ayuda_a_la_navegacion_BC050",
+        "name": "Faro"
+      },
+      {
+        "nombre": "puntos_de_aguas_continentales_BH170",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_aguas_continentales_BH170",
+        "name": "Fuente natural"
+      },
+      {
+        "nombre": "areas_de_zona_costera_BA030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_zona_costera_BA030",
+        "name": "Isla"
+      },
+      {
+        "nombre": "mareas_y_corrientes_BG020",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:mareas_y_corrientes_BG020",
+        "name": "Mareógrafo"
+      },
+      {
+        "nombre": "lineas_de_puertos_y_muelles_BB190",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_puertos_y_muelles_BB190",
+        "name": "Muelle"
+      },
+      {
+        "nombre": "lineas_de_aguas_continentales_BI020",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_aguas_continentales_BI020",
+        "name": "Muro de embalse"
+      },
+      {
+        "nombre": "puntos_de_puertos_y_muelles_BB005",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_puertos_y_muelles_BB005",
+        "name": "Puerto"
+      },
+      {
+        "nombre": "puntos_de_obstrucciones_BD130",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_obstrucciones_BD130",
+        "name": "Roca"
+      },
+      {
+        "nombre": "lineas_de_puertos_y_muelles_BB041",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_puertos_y_muelles_BB041",
+        "name": "Rompeolas"
+      },
+      {
+        "nombre": "puntos_de_puertos_y_muelles_BB041",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_puertos_y_muelles_BB041",
+        "name": "Rompeolas"
+      }
+    ]
+  },
+  {
+    "padre": "Industria y servicios",
+    "hijos": [
+      {
+        "nombre": "puntos_de_comunicacion_AT010",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_comunicacion_AT010",
+        "name": "Antena"
+      },
+      {
+        "nombre": "areas_de_extraccion_AA012",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_extraccion_AA012",
+        "name": "Cantera"
+      },
+      {
+        "nombre": "puntos_de_energia_AD010",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_energia_AD010",
+        "name": "Central eléctrica"
+      },
+      {
+        "nombre": "puntos_de_estructura_asociada_AA051",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_estructura_asociada_AA051",
+        "name": "Cámara de válvulas"
+      },
+      {
+        "nombre": "lineas_de_estructura_asociada_ducto_subterraneo",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_estructura_asociada_ducto_subterraneo",
+        "name": "Ducto"
+      },
+      {
+        "nombre": "areas_de_actividad_agropecuaria_AL270",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_actividad_agropecuaria_AL270",
+        "name": "Establecimiento agropecuario"
+      },
+      {
+        "nombre": "puntos_de_fabricacion_y_procesamiento_AC000",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_fabricacion_y_procesamiento_AC000",
+        "name": "Fábrica"
+      },
+      {
+        "nombre": "puntos_de_estructura_asociada_AJ080",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_estructura_asociada_AJ080",
+        "name": "Galpón, tinglado"
+      },
+      {
+        "nombre": "areas_de_actividad_agropecuaria_AJ110",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_actividad_agropecuaria_AJ110",
+        "name": "Invernadero, vivero, huerta"
+      },
+      {
+        "nombre": "puntos_de_actividad_agropecuaria_AJ110",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_actividad_agropecuaria_AJ110",
+        "name": "Invernadero, vivero, huerta"
+      },
+      {
+        "nombre": "lineas_de_energia_AT030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_energia_AT030",
+        "name": "Línea de transmisión eléctrica"
+      },
+      {
+        "nombre": "puntos_de_extraccion_AA010",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_extraccion_AA010",
+        "name": "Mina"
+      },
+      {
+        "nombre": "puntos_de_actividad_agropecuaria_AJ050",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_actividad_agropecuaria_AJ050",
+        "name": "Molino viento"
+      },
+      {
+        "nombre": "puntos_de_estructura_asociada_AQ116",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_estructura_asociada_AQ116",
+        "name": "Planta de bombeo de agua"
+      },
+      {
+        "nombre": "areas_de_fabricacion_y_procesamiento_AC507",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_fabricacion_y_procesamiento_AC507",
+        "name": "Planta de tratamiento de efluentes cloacales"
+      },
+      {
+        "nombre": "puntos_de_fabricacion_y_procesamiento_AC507",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_fabricacion_y_procesamiento_AC507",
+        "name": "Planta de tratamiento de efluentes cloacales"
+      },
+      {
+        "nombre": "areas_de_gestion_de_residuos_AB030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_gestion_de_residuos_AB030",
+        "name": "Planta de tratamiento de residuos"
+      },
+      {
+        "nombre": "puntos_de_gestion_de_residuos_AB030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_gestion_de_residuos_AB030",
+        "name": "Planta de tratamiento de residuos"
+      },
+      {
+        "nombre": "areas_de_fabricacion_y_procesamiento_BH220",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_fabricacion_y_procesamiento_BH220",
+        "name": "Planta potabilizadora de agua"
+      },
+      {
+        "nombre": "puntos_de_fabricacion_y_procesamiento_BH220",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_fabricacion_y_procesamiento_BH220",
+        "name": "Planta potabilizadora de agua"
+      },
+      {
+        "nombre": "puntos_de_energia_AD030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_energia_AD030",
+        "name": "Planta transformadora"
+      },
+      {
+        "nombre": "puntos_de_extraccion_AA050",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_extraccion_AA050",
+        "name": "Pozo hidrocarburos"
+      },
+      {
+        "nombre": "areas_de_gestion_de_residuos_relleno_sanitario",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_gestion_de_residuos_relleno_sanitario",
+        "name": "Relleno sanitario"
+      },
+      {
+        "nombre": "puntos_de_almacenamiento_y_logistica_AM080",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_almacenamiento_y_logistica_AM080",
+        "name": "Tanque de agua elevado"
+      },
+      {
+        "nombre": "puntos_de_almacenamiento_y_logistica_AM070",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_almacenamiento_y_logistica_AM070",
+        "name": "Tanque de combustible"
+      },
+      {
+        "nombre": "puntos_de_comunicacion_AT080",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_comunicacion_AT080",
+        "name": "Torre de telecomunicaciones"
+      },
+      {
+        "nombre": "areas_de_gestion_de_residuos_AB000",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_gestion_de_residuos_AB000",
+        "name": "Vertedero, basurero"
+      },
+      {
+        "nombre": "areas_de_extraccion_AA052",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_extraccion_AA052",
+        "name": "Yacimiento de hidrocarburo"
+      },
+      {
+        "nombre": "areas_de_estructura_asociada_010601",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_estructura_asociada_010601",
+        "name": "Zona de extracción minera"
+      },
+      {
+        "nombre": "areas_de_fabricacion_y_procesamiento_AC070",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_fabricacion_y_procesamiento_AC070",
+        "name": "Área de fabricación y procesamiento"
+      }
+    ]
+  },
+  {
+    "padre": "Infraestructura social",
+    "hijos": [
+      {
+        "nombre": "areas_de_equipamiento_AL030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_equipamiento_AL030",
+        "name": "Cementerio"
+      },
+      {
+        "nombre": "puntos_de_equipamiento_AL030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_equipamiento_AL030",
+        "name": "Cementerio"
+      },
+      {
+        "nombre": "puntos_de_ciencia_y_educacion_AL295",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_ciencia_y_educacion_AL295",
+        "name": "Centro Científico"
+      },
+      {
+        "nombre": "puntos_de_recreacion_020401",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_recreacion_020401",
+        "name": "Centro de esquí"
+      },
+      {
+        "nombre": "puntos_de_asentamientos_y_edificios_AL015",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_asentamientos_y_edificios_AL015",
+        "name": "Edificación"
+      },
+      {
+        "nombre": "puntos_de_asentamientos_y_edificios_020101",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_asentamientos_y_edificios_020101",
+        "name": "Edificio Gubernamental"
+      },
+      {
+        "nombre": "puntos_de_asentamientos_y_edificios_020102",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_asentamientos_y_edificios_020102",
+        "name": "Edificio de comunicaciones"
+      },
+      {
+        "nombre": "cultura_y_religion_AL021",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:cultura_y_religion_AL021",
+        "name": "Edificio de cultura"
+      },
+      {
+        "nombre": "salud_020801",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:salud_020801",
+        "name": "Edificio de salud"
+      },
+      {
+        "nombre": "cultura_y_religion_AL330",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:cultura_y_religion_AL330",
+        "name": "Edificio religioso"
+      },
+      {
+        "nombre": "areas_de_equipamiento_AL170",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_equipamiento_AL170",
+        "name": "Espacio verde"
+      },
+      {
+        "nombre": "puntos_de_ciencia_y_educacion_020601",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_ciencia_y_educacion_020601",
+        "name": "Establecimiento educativo"
+      },
+      {
+        "nombre": "puntos_de_recreacion_AK040",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_recreacion_AK040",
+        "name": "Instalación deportiva y de esparcimiento"
+      },
+      {
+        "nombre": "puntos_de_equipamiento_AL130",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_equipamiento_AL130",
+        "name": "Monumento"
+      },
+      {
+        "nombre": "bahra_paraje",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:bahra_paraje",
+        "name": "Paraje"
+      },
+      {
+        "nombre": "areas_de_asentamientos_y_edificios_020105",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_asentamientos_y_edificios_020105",
+        "name": "Planta urbana"
+      },
+      {
+        "nombre": "puntos_de_equipamiento_AH030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_equipamiento_AH030",
+        "name": "Refugio"
+      },
+      {
+        "nombre": "puntos_de_asentamientos_y_edificios_ruina",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_asentamientos_y_edificios_ruina",
+        "name": "Ruinas"
+      },
+      {
+        "nombre": "puntos_de_asentamientos_y_edificios_AL201",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_asentamientos_y_edificios_AL201",
+        "name": "Sitio de interés"
+      },
+      {
+        "nombre": "puntos_de_asentamientos_y_edificios_020108",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_asentamientos_y_edificios_020108",
+        "name": "Tapera"
+      },
+      {
+        "nombre": "puntos_de_ciencia_y_educacion_020602",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_ciencia_y_educacion_020602",
+        "name": "Universidad"
+      }
+    ]
+  },
+  {
+    "padre": "Límites y unidades territoriales",
+    "hijos": [
+      {
+        "nombre": "doscientas_millas_sector_antartico",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:doscientas_millas_sector_antartico",
+        "name": "200 millas desde la costa del sector antártico"
+      },
+      {
+        "nombre": "gobiernoslocales_2022",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:gobiernoslocales_2022",
+        "name": "Gobierno Local"
+      },
+      {
+        "nombre": "municipio",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:municipio",
+        "name": "Gobierno Local"
+      },
+      {
+        "nombre": "hitos_internacionales",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:hitos_internacionales",
+        "name": "Hitos internacionales"
+      },
+      {
+        "nombre": "hitos_interprovinciales",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:hitos_interprovinciales",
+        "name": "Hitos interprovinciales"
+      },
+      {
+        "nombre": "linea_limite_maritimos",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:linea_limite_maritimos",
+        "name": "Límites de espacios marítimos"
+      },
+      {
+        "nombre": "zona_economica_exclusiva_argentina",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:zona_economica_exclusiva_argentina",
+        "name": "Zona Económica Exclusiva argentina"
+      },
+      {
+        "nombre": "zona_de_frontera",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:zona_de_frontera",
+        "name": "Zona de Frontera área"
+      },
+      {
+        "nombre": "area_de_desarrollo_de_fronteras",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:area_de_desarrollo_de_fronteras",
+        "name": "Área de Desarrollo de Fronteras"
+      }
+    ]
+  },
+  {
+    "padre": "Modelos digitales de elevaciones",
+    "hijos": [
+      {
+        "nombre": "mde",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:mde",
+        "name": "Modelo Digital de Elevaciones"
+      }
+    ]
+  },
+  {
+    "padre": "Redes geodésicas",
+    "hijos": [
+      {
+        "nombre": "ramsac",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:ramsac",
+        "name": "Red de estaciones GPS/GNSS RAMSAC"
+      },
+      {
+        "nombre": "nivelacion_topografica",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:nivelacion_topografica",
+        "name": "Red de nivelación Topográfica"
+      },
+      {
+        "nombre": "nivelacion_alta_precision",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:nivelacion_alta_precision",
+        "name": "Red de nivelación de Alta Precisión"
+      },
+      {
+        "nombre": "nivelacion_precision",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:nivelacion_precision",
+        "name": "Red de nivelación de Precisión"
+      },
+      {
+        "nombre": "red_densificacion_posgar",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:red_densificacion_posgar",
+        "name": "Red geodésica Densificación POSGAR07"
+      },
+      {
+        "nombre": "red_pasma",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:red_pasma",
+        "name": "Red geodésica PASMA"
+      },
+      {
+        "nombre": "red_posgar",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:red_posgar",
+        "name": "Red geodésica POSGAR07"
+      },
+      {
+        "nombre": "red_provincial",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:red_provincial",
+        "name": "Red geodésica Provincial"
+      },
+      {
+        "nombre": "gravimetria_bacara",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:gravimetria_bacara",
+        "name": "Red gravimétrica BACARA"
+      },
+      {
+        "nombre": "gravimetria_igsn71",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:gravimetria_igsn71",
+        "name": "Red gravimétrica IGSN 71"
+      },
+      {
+        "nombre": "gravimetria_raga",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:gravimetria_raga",
+        "name": "Red gravimétrica RAGA"
+      },
+      {
+        "nombre": "gravimetria_rpo",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:gravimetria_rpo",
+        "name": "Red gravimétrica de Primer Orden"
+      },
+      {
+        "nombre": "gravimetria_rso",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:gravimetria_rso",
+        "name": "Red gravimétrica de Segundo Orden"
+      },
+      {
+        "nombre": "gravimetria_rto",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:gravimetria_rto",
+        "name": "Red gravimétrica de Tercer Orden"
+      }
+    ]
+  },
+  {
+    "padre": "Relieve y suelo",
+    "hijos": [
+      {
+        "nombre": "puntos_de_geomorfologia_DB120",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_geomorfologia_DB120",
+        "name": "Abra, paso, portillo, portezuelo"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_barranca",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_barranca",
+        "name": "Barranca"
+      },
+      {
+        "nombre": "areas_de_glaciologia_050705",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_glaciologia_050705",
+        "name": "Barrera de hielo"
+      },
+      {
+        "nombre": "puntos_de_geomorfologia_NA100",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_geomorfologia_NA100",
+        "name": "Cerro"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_050205",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_050205",
+        "name": "Cordillera"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_050206",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_050206",
+        "name": "Cordón"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_050207",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_050207",
+        "name": "Cuchilla"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_050208",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_050208",
+        "name": "Cuesta"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_CA010",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_CA010",
+        "name": "Curva de nivel"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_CA020",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_CA020",
+        "name": "Filo"
+      },
+      {
+        "nombre": "puntos_de_glaciologia_BJ030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_glaciologia_BJ030",
+        "name": "Glaciar"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_DB001",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_DB001",
+        "name": "Lugar geomorfológico"
+      },
+      {
+        "nombre": "areas_de_geomorfologia_050202",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_geomorfologia_050202",
+        "name": "Meseta"
+      },
+      {
+        "nombre": "puntos_de_geomorfologia_050203",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_geomorfologia_050203",
+        "name": "Mogote"
+      },
+      {
+        "nombre": "areas_de_glaciologia_BJ020",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_glaciologia_BJ020",
+        "name": "Morena, morrena"
+      },
+      {
+        "nombre": "areas_de_geomorfologia_DB560",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_geomorfologia_DB560",
+        "name": "Médano, duna"
+      },
+      {
+        "nombre": "puntos_de_geomorfologia_CA030",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_geomorfologia_CA030",
+        "name": "Punto acotado"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_DB200",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_DB200",
+        "name": "Quebrada, cañadón, garganta"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_050204",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_050204",
+        "name": "Sierra"
+      },
+      {
+        "nombre": "lineas_de_geomorfologia_CA025",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_geomorfologia_CA025",
+        "name": "Valle"
+      },
+      {
+        "nombre": "area_de_montana",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:area_de_montana",
+        "name": "Área de montaña"
+      }
+    ]
+  },
+  {
+    "padre": "Transporte",
+    "hijos": [
+      {
+        "nombre": "puntos_de_transporte_aereo_GB005",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_transporte_aereo_GB005",
+        "name": "Aeropuerto"
+      },
+      {
+        "nombre": "puntos_de_transporte_aereo_GB001",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_transporte_aereo_GB001",
+        "name": "Aeródromo"
+      },
+      {
+        "nombre": "puntos_de_cruces_y_enlaces_AQ065",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_cruces_y_enlaces_AQ065",
+        "name": "Alcantarilla"
+      },
+      {
+        "nombre": "puntos_de_transporte_ferroviario_AN070",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_transporte_ferroviario_AN070",
+        "name": "Estación de ferrocarril"
+      },
+      {
+        "nombre": "infraestructura_de_transporte_030801",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:infraestructura_de_transporte_030801",
+        "name": "Estación de peaje"
+      },
+      {
+        "nombre": "infraestructura_de_transporte_AQ180",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:infraestructura_de_transporte_AQ180",
+        "name": "Estación de pesaje"
+      },
+      {
+        "nombre": "infraestructura_de_transporte_AQ170",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:infraestructura_de_transporte_AQ170",
+        "name": "Estación de servicio"
+      },
+      {
+        "nombre": "infraestructura_de_transporte_AQ125",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:infraestructura_de_transporte_AQ125",
+        "name": "Estación de ómnibus"
+      },
+      {
+        "nombre": "lineas_de_transporte_ferroviario_AN010",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_transporte_ferroviario_AN010",
+        "name": "Ferrocarril"
+      },
+      {
+        "nombre": "puntos_de_transporte_aereo_GB035",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_transporte_aereo_GB035",
+        "name": "Helipuerto"
+      },
+      {
+        "nombre": "vial_AP010",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vial_AP010",
+        "name": "Huella"
+      },
+      {
+        "nombre": "infraestructura_de_transporte_030803",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:infraestructura_de_transporte_030803",
+        "name": "Indicador de kilómetros"
+      },
+      {
+        "nombre": "lineas_de_transporte_aereo_GB055",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_transporte_aereo_GB055",
+        "name": "Pista"
+      },
+      {
+        "nombre": "lineas_de_cruces_y_enlaces_AQ040",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:lineas_de_cruces_y_enlaces_AQ040",
+        "name": "Puente"
+      },
+      {
+        "nombre": "puntos_de_cruces_y_enlaces_AQ040",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_cruces_y_enlaces_AQ040",
+        "name": "Puente"
+      },
+      {
+        "nombre": "controles_AH070",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:controles_AH070",
+        "name": "Puesto de Control"
+      },
+      {
+        "nombre": "vial_nacional",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vial_nacional",
+        "name": "Red vial nacional"
+      },
+      {
+        "nombre": "vial_provincial",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vial_provincial",
+        "name": "Red vial provincial"
+      },
+      {
+        "nombre": "vial_terciaria",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vial_terciaria",
+        "name": "Red vial terciaria"
+      },
+      {
+        "nombre": "vial_AP050",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vial_AP050",
+        "name": "Senda rural"
+      },
+      {
+        "nombre": "puntos_de_cruces_y_enlaces_AQ130",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_cruces_y_enlaces_AQ130",
+        "name": "Tunel"
+      },
+      {
+        "nombre": "puntos_de_cruces_y_enlaces_BH070",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:puntos_de_cruces_y_enlaces_BH070",
+        "name": "Vado"
+      }
+    ]
+  },
+  {
+    "padre": "Vegetación natural y de cultivo",
+    "hijos": [
+      {
+        "nombre": "vegetacion_arborea_060301",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vegetacion_arborea_060301",
+        "name": "Bosque artificial"
+      },
+      {
+        "nombre": "vegetacion_arborea_EC015",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vegetacion_arborea_EC015",
+        "name": "Bosque, selva"
+      },
+      {
+        "nombre": "sin_vegetacion_061001",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:sin_vegetacion_061001",
+        "name": "Desmonte"
+      },
+      {
+        "nombre": "vegetacion_arbustiva_EB015",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vegetacion_arbustiva_EB015",
+        "name": "Estepa arbustiva"
+      },
+      {
+        "nombre": "vegetacion_arborea_060302",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vegetacion_arborea_060302",
+        "name": "Monte"
+      },
+      {
+        "nombre": "vegetacion_hidrofila_ED020",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vegetacion_hidrofila_ED020",
+        "name": "Pajonal, juncal, totoral"
+      },
+      {
+        "nombre": "vegetacion_arborea_AK120",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:vegetacion_arborea_AK120",
+        "name": "Parque artificial"
+      },
+      {
+        "nombre": "plantacion_permanente_KB025",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:plantacion_permanente_KB025",
+        "name": "Plantación permanente"
+      },
+      {
+        "nombre": "terreno_para_cultivo_EA010",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:terreno_para_cultivo_EA010",
+        "name": "Terreno para cultivo"
+      }
+    ]
+  },
+  {
+    "padre": "Otros",
+    "hijos": [
+      {
+        "nombre": "edafologia_afloramiento_rocoso",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:edafologia_afloramiento_rocoso",
+        "name": "Afloramiento rocoso"
+      },
+      {
+        "nombre": "edafologia_arenal",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:edafologia_arenal",
+        "name": "Arenal"
+      },
+      {
+        "nombre": "edafologia_barrial_barrizal",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:edafologia_barrial_barrizal",
+        "name": "Barrial, Barrizal"
+      },
+      {
+        "nombre": "edafologia_cumbre_rocosa",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:edafologia_cumbre_rocosa",
+        "name": "Cumbre rocosa"
+      },
+      {
+        "nombre": "edafologia_pedregal",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:edafologia_pedregal",
+        "name": "Pedregal"
+      },
+      {
+        "nombre": "areas_de_zona_costera_playa_areana",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_zona_costera_playa_areana",
+        "name": "Playa de arena"
+      },
+      {
+        "nombre": "areas_de_zona_costera_playa_grava",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_zona_costera_playa_grava",
+        "name": "Playa de grava"
+      },
+      {
+        "nombre": "areas_de_zona_costera_playa_restinga",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:areas_de_zona_costera_playa_restinga",
+        "name": "Playa de restinga"
+      },
+      {
+        "nombre": "edafologia_salina",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:edafologia_salina",
+        "name": "Salina, Salar, Salitral, Boratera"
+      },
+      {
+        "nombre": "edafologia_sedimento_fluvial",
+        "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typename=ign:edafologia_sedimento_fluvial",
+        "name": "Sedimento Fluvial"
+      }
+    ]
+  }
+]
