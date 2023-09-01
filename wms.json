@@ -1,0 +1,507 @@
+[
+    {
+        "padre": "Asentamientos humanos",
+        "hijos": [
+            {
+                "nombre": "Planta urbana",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=areas_de_asentamientos_y_edificios_020106&styles&url=http://172.20.205.70:8080/geoserver/asentamientos_humanos/wms",
+                "name": "areas_de_asentamientos_y_edificios_020106"
+            },
+            {
+                "nombre": "Base antártica",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=base_antartica_bahra&styles&url=http://172.20.205.70:8080/geoserver/asentamientos_humanos/wms",
+                "name": "base_antartica_bahra"
+            },
+            {
+                "nombre": "Localidad",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=localidad_bahra&styles&url=http://172.20.205.70:8080/geoserver/asentamientos_humanos/wms",
+                "name": "localidad_bahra"
+            },
+            {
+                "nombre": "Paraje",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=paraje_bahra&styles&url=http://172.20.205.70:8080/geoserver/asentamientos_humanos/wms",
+                "name": "paraje_bahra"
+            },
+            {
+                "nombre": "Sublocalidad",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=sublocalidad_entidad_bahra&styles&url=http://172.20.205.70:8080/geoserver/asentamientos_humanos/wms",
+                "name": "sublocalidad_entidad_bahra"
+            }
+        ]
+    },
+    {
+        "padre": "Cartografía",
+        "hijos": [
+            {
+                "nombre": "Cartas 1:100.000",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=hojas_100000&styles&url=http://172.20.205.70:8080/geoserver/cartografia/wms",
+                "name": "hojas_100000"
+            },
+            {
+                "nombre": "Cartas 1:25.000",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=hojas_25000&styles&url=http://172.20.205.70:8080/geoserver/cartografia/wms",
+                "name": "hojas_25000"
+            },
+            {
+                "nombre": "Cartas 1:250.000",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=hojas_250000&styles&url=http://172.20.205.70:8080/geoserver/cartografia/wms",
+                "name": "hojas_250000"
+            },
+            {
+                "nombre": "Cartas 1:50.000",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=hojas_50000&styles&url=http://172.20.205.70:8080/geoserver/cartografia/wms",
+                "name": "hojas_50000"
+            },
+            {
+                "nombre": "Cartas 1:500.000",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=hojas_500000&styles&url=http://172.20.205.70:8080/geoserver/cartografia/wms",
+                "name": "hojas_500000"
+            }
+        ]
+    },
+    {
+        "padre": "Defensa y seguridad",
+        "hijos": [
+            {
+                "nombre": "Complejos Fronterizos",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=complejos_fronterizos&styles&url=http://172.20.205.70:8080/geoserver/defensa-seguridad/wms",
+                "name": "complejos_fronterizos"
+            },
+            {
+                "nombre": "Institución penitenciaria",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=estructuras_operativas_y_defensivas_090101&styles&url=http://172.20.205.70:8080/geoserver/defensa-seguridad/wms",
+                "name": "estructuras_operativas_y_defensivas_090101"
+            },
+            {
+                "nombre": "Cuartel de bomberos",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=estructuras_operativas_y_defensivas_090102&styles&url=http://172.20.205.70:8080/geoserver/defensa-seguridad/wms",
+                "name": "estructuras_operativas_y_defensivas_090102"
+            },
+            {
+                "nombre": "Edificio de seguridad",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=estructuras_operativas_y_defensivas_FA517&styles&url=http://172.20.205.70:8080/geoserver/defensa-seguridad/wms",
+                "name": "estructuras_operativas_y_defensivas_FA517"
+            },
+            {
+                "nombre": "Instalación militar",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=instalacion_militar_SU001&styles&url=http://172.20.205.70:8080/geoserver/defensa-seguridad/wms",
+                "name": "instalacion_militar_SU001"
+            },
+            {
+                "nombre": "Pasos de Fronteras Internacionales",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=pasos_de_fronteras_internacionales&styles&url=http://172.20.205.70:8080/geoserver/defensa-seguridad/wms",
+                "name": "pasos_de_fronteras_internacionales"
+            }
+        ]
+    },
+    {
+        "padre": "Fotografías aéreas",
+        "hijos": [
+            {
+                "nombre": "Área de vuelos",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=area_vuelos_dsr_sig&styles&url=http://172.20.205.70:8080/geoserver/fotogrametria/wms",
+                "name": "area_vuelos_dsr_sig"
+            },
+            {
+                "nombre": "Área de vuelos VANT",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=area_vuelos_vant_sig&styles&url=http://172.20.205.70:8080/geoserver/fotogrametria/wms",
+                "name": "area_vuelos_vant_sig"
+            }
+        ]
+    },
+    {
+        "padre": "Hidrografía y oceanografía",
+        "hijos": [
+            {
+                "nombre": "Espejo de agua",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=areas_de_aguas_continentales_BH080&styles&url=http://172.20.205.70:8080/geoserver/hidrografia-oceanografia/wms",
+                "name": "areas_de_aguas_continentales_BH080"
+            },
+            {
+                "nombre": "Embalse",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=areas_de_aguas_continentales_BH130&styles&url=http://172.20.205.70:8080/geoserver/hidrografia-oceanografia/wms",
+                "name": "areas_de_aguas_continentales_BH130"
+            },
+            {
+                "nombre": "Isla",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=areas_de_zona_costera_BA030&styles&url=http://172.20.205.70:8080/geoserver/hidrografia-oceanografia/wms",
+                "name": "areas_de_zona_costera_BA030"
+            },
+            {
+                "nombre": "Corriente de agua intermitente",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=lineas_de_aguas_continentales_intermitentes&styles&url=http://172.20.205.70:8080/geoserver/hidrografia-oceanografia/wms",
+                "name": "lineas_de_aguas_continentales_intermitentes"
+            },
+            {
+                "nombre": "Corriente de agua perenne",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=lineas_de_aguas_continentales_perenne&styles&url=http://172.20.205.70:8080/geoserver/hidrografia-oceanografia/wms",
+                "name": "lineas_de_aguas_continentales_perenne"
+            },
+            {
+                "nombre": "Accidente costero",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=lineas_de_zona_costera_BA040&styles&url=http://172.20.205.70:8080/geoserver/hidrografia-oceanografia/wms",
+                "name": "lineas_de_zona_costera_BA040"
+            },
+            {
+                "nombre": "Puerto",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_puertos_y_muelles_BB005&styles&url=http://172.20.205.70:8080/geoserver/hidrografia-oceanografia/wms",
+                "name": "puntos_de_puertos_y_muelles_BB005"
+            }
+        ]
+    },
+    {
+        "padre": "Industria y servicios",
+        "hijos": [
+            {
+                "nombre": "Áreas de fabricación y procesamiento",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=areas_de_fabricacion_y_procesamiento_AC070&styles&url=http://172.20.205.70:8080/geoserver/industria-servicios/wms",
+                "name": "areas_de_fabricacion_y_procesamiento_AC070"
+            },
+            {
+                "nombre": "Línea de transmisión eléctrica",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=lineas_de_energia_AT030&styles&url=http://172.20.205.70:8080/geoserver/industria-servicios/wms",
+                "name": "lineas_de_energia_AT030"
+            },
+            {
+                "nombre": "Planta de tratamiento de efluentes cloacales",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=planta_de_tratamiento_de_efluentes_cloacales&styles&url=http://172.20.205.70:8080/geoserver/industria-servicios/wms",
+                "name": "planta_de_tratamiento_de_efluentes_cloacales"
+            },
+            {
+                "nombre": "Planta de tratamiento de residuos",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=planta_de_tratamiento_de_residuos&styles&url=http://172.20.205.70:8080/geoserver/industria-servicios/wms",
+                "name": "planta_de_tratamiento_de_residuos"
+            },
+            {
+                "nombre": "Planta potabilizadora de agua",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=planta_potabilizadora_de_agua&styles&url=http://172.20.205.70:8080/geoserver/industria-servicios/wms",
+                "name": "planta_potabilizadora_de_agua"
+            },
+            {
+                "nombre": "Antena",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_comunicacion_AT010&styles&url=http://172.20.205.70:8080/geoserver/industria-servicios/wms",
+                "name": "puntos_de_comunicacion_AT010"
+            },
+            {
+                "nombre": "Central eléctrica",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_energia_AD010&styles&url=http://172.20.205.70:8080/geoserver/industria-servicios/wms",
+                "name": "puntos_de_energia_AD010"
+            },
+            {
+                "nombre": "Mina",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_extraccion_AA010&styles&url=http://172.20.205.70:8080/geoserver/industria-servicios/wms",
+                "name": "puntos_de_extraccion_AA010"
+            }
+        ]
+    },
+    {
+        "padre": "Infraestructura social",
+        "hijos": [
+            {
+                "nombre": "Edificio de cultura",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=cultura_y_religion_AL021&styles&url=http://172.20.205.70:8080/geoserver/infraestructura-social/wms",
+                "name": "cultura_y_religion_AL021"
+            },
+            {
+                "nombre": "Establecimiento educativo",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=edificio_educativo_020601&styles&url=http://172.20.205.70:8080/geoserver/infraestructura-social/wms",
+                "name": "edificio_educativo_020601"
+            },
+            {
+                "nombre": "Edificio gubernamental",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_asentamientos_y_edificios_020101&styles&url=http://172.20.205.70:8080/geoserver/infraestructura-social/wms",
+                "name": "puntos_de_asentamientos_y_edificios_020101"
+            },
+            {
+                "nombre": "Universidad",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_ciencia_y_educacion_020602&styles&url=http://172.20.205.70:8080/geoserver/infraestructura-social/wms",
+                "name": "puntos_de_ciencia_y_educacion_020602"
+            },
+            {
+                "nombre": "Centro Científico",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_ciencia_y_educacion_AL295&styles&url=http://172.20.205.70:8080/geoserver/infraestructura-social/wms",
+                "name": "puntos_de_ciencia_y_educacion_AL295"
+            },
+            {
+                "nombre": "Edificio de salud",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=salud_020801&styles&url=http://172.20.205.70:8080/geoserver/infraestructura-social/wms",
+                "name": "salud_020801"
+            }
+        ]
+    },
+    {
+        "padre": "Límites y unidades territoriales",
+        "hijos": [
+            {
+                "nombre": "Área de Desarrollo de Fronteras",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=area_de_desarrollo_de_fronteras&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "area_de_desarrollo_de_fronteras"
+            },
+            {
+                "nombre": "Área protegida",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=area_protegida_070115&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "area_protegida_070115"
+            },
+            {
+                "nombre": "Departamento",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=departamento_FA001&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "departamento_FA001"
+            },
+            {
+                "nombre": "200 millas desde la costa del sector antártico",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=doscientas_millas_sector_antartico&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "doscientas_millas_sector_antartico"
+            },
+            {
+                "nombre": "Gobierno Local",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=gobiernoslocales_2022&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "gobiernoslocales_2022"
+            },
+            {
+                "nombre": "Hitos internacionales",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=hitos_internacionales&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "hitos_internacionales"
+            },
+            {
+                "nombre": "Hitos interprovinciales",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=hitos_interprovinciales&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "hitos_interprovinciales"
+            },
+            {
+                "nombre": "Límite internacional",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=linea_de_limite_FA004&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "linea_de_limite_FA004"
+            },
+            {
+                "nombre": "Límites de espacios marítimos",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=linea_limite_maritimos&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "linea_limite_maritimos"
+            },
+            {
+                "nombre": "Mar Territorial argentino",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=mar_territorial_argentino&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "mar_territorial_argentino"
+            },
+            {
+                "nombre": "Gobierno Local",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=municipio&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "municipio"
+            },
+            {
+                "nombre": "Plataforma Continental",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=plataforma_continental&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "plataforma_continental"
+            },
+            {
+                "nombre": "Provincia",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=provincia_FA003&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "provincia_FA003"
+            },
+            {
+                "nombre": "Zona Contigua argentina",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=zona_contigua_argentina&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "zona_contigua_argentina"
+            },
+            {
+                "nombre": "Zona de Seguridad de Frontera",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=zona_de_frontera_070113&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "zona_de_frontera_070113"
+            },
+            {
+                "nombre": "Zona Económica Exclusiva argentina",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=zona_economica_exclusiva_argentina&styles&url=http://172.20.205.70:8080/geoserver/limites/wms",
+                "name": "zona_economica_exclusiva_argentina"
+            }
+        ]
+    },
+    {
+        "padre": "Modelos digitales de elevaciones",
+        "hijos": [
+            {
+                "nombre": "MDE 0.5 m",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=mde_50cm&styles&url=http://172.20.205.70:8080/geoserver/modelos-digitales-elevaciones/wms",
+                "name": "mde_50cm"
+            },
+            {
+                "nombre": "MDE 5 m",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=mde_5m&styles&url=http://172.20.205.70:8080/geoserver/modelos-digitales-elevaciones/wms",
+                "name": "mde_5m"
+            },
+            {
+                "nombre": "MDE 30 m",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=mde_v2_30m&styles&url=http://172.20.205.70:8080/geoserver/modelos-digitales-elevaciones/wms",
+                "name": "mde_v2_30m"
+            },
+            {
+                "nombre": "MDT 0.5 m",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=mdt_50cm&styles&url=http://172.20.205.70:8080/geoserver/modelos-digitales-elevaciones/wms",
+                "name": "mdt_50cm"
+            },
+            {
+                "nombre": "MDT 5 m",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=mdt_5m&styles&url=http://172.20.205.70:8080/geoserver/modelos-digitales-elevaciones/wms",
+                "name": "mdt_5m"
+            },
+            {
+                "nombre": "MDT externos",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=mdt_externos&styles&url=http://172.20.205.70:8080/geoserver/modelos-digitales-elevaciones/wms",
+                "name": "mdt_externos"
+            }
+        ]
+    },
+    {
+        "padre": "Redes geodésicas",
+        "hijos": [
+            {
+                "nombre": "Red gravimétrica BACARA",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=gravimetria_bacara&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "gravimetria_bacara"
+            },
+            {
+                "nombre": "Red gravimétrica IGSN 71",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=gravimetria_igsn71&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "gravimetria_igsn71"
+            },
+            {
+                "nombre": "Red gravimétrica RAGA",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=gravimetria_raga&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "gravimetria_raga"
+            },
+            {
+                "nombre": "Red gravimétrica de Primer Orden",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=gravimetria_rpo&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "gravimetria_rpo"
+            },
+            {
+                "nombre": "Red gravimétrica de Segundo Orden",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=gravimetria_rso&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "gravimetria_rso"
+            },
+            {
+                "nombre": "Red gravimétrica de Tercer Orden",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=gravimetria_rto&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "gravimetria_rto"
+            },
+            {
+                "nombre": "Red de nivelación de Alta Precisión",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=nivelacion_alta_precision&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "nivelacion_alta_precision"
+            },
+            {
+                "nombre": "Red de nivelación de Precisión",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=nivelacion_precision&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "nivelacion_precision"
+            },
+            {
+                "nombre": "Red de nivelación Topográfica",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=nivelacion_topografica&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "nivelacion_topografica"
+            },
+            {
+                "nombre": "Red de estaciones GPS/GNSS RAMSAC",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=ramsac&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "ramsac"
+            },
+            {
+                "nombre": "Red geodésica Densificación POSGAR07",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=red_densificacion_posgar&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "red_densificacion_posgar"
+            },
+            {
+                "nombre": "Red geodésica PASMA",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=red_pasma&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "red_pasma"
+            },
+            {
+                "nombre": "Red geodésica POSGAR07",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=red_posgar&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "red_posgar"
+            },
+            {
+                "nombre": "Red geodésica Provincial",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=red_provincial&styles&url=http://172.20.205.70:8080/geoserver/geodesia-demarcacion/wms",
+                "name": "red_provincial"
+            }
+        ]
+    },
+    {
+        "padre": "Relieve y suelo",
+        "hijos": [
+            {
+                "nombre": "Área de montaña",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=area_de_montana&styles&url=http://172.20.205.70:8080/geoserver/relieve-suelo/wms",
+                "name": "area_de_montana"
+            },
+            {
+                "nombre": "Punto acotado",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_geomorfologia_CA030&styles&url=http://172.20.205.70:8080/geoserver/relieve-suelo/wms",
+                "name": "puntos_de_geomorfologia_CA030"
+            },
+            {
+                "nombre": "Abra, paso, portillo, portezuelo",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_geomorfologia_DB120&styles&url=http://172.20.205.70:8080/geoserver/relieve-suelo/wms",
+                "name": "puntos_de_geomorfologia_DB120"
+            },
+            {
+                "nombre": "Cerro",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_geomorfologia_NA100&styles&url=http://172.20.205.70:8080/geoserver/relieve-suelo/wms",
+                "name": "puntos_de_geomorfologia_NA100"
+            },
+            {
+                "nombre": "Glaciar",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_glaciologia_BJ030&styles&url=http://172.20.205.70:8080/geoserver/relieve-suelo/wms",
+                "name": "puntos_de_glaciologia_BJ030"
+            }
+        ]
+    },
+    {
+        "padre": "Transporte",
+        "hijos": [
+            {
+                "nombre": "Puesto de control",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=controles_puestos_AH070&styles&url=http://172.20.205.70:8080/geoserver/transporte/wms",
+                "name": "controles_puestos_AH070"
+            },
+            {
+                "nombre": "Ferrocarril",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=lineas_de_transporte_ferroviario_AN010&styles&url=http://172.20.205.70:8080/geoserver/transporte/wms",
+                "name": "lineas_de_transporte_ferroviario_AN010"
+            },
+            {
+                "nombre": "Aeródromo",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_transporte_aereo_GB001&styles&url=http://172.20.205.70:8080/geoserver/transporte/wms",
+                "name": "puntos_de_transporte_aereo_GB001"
+            },
+            {
+                "nombre": "Aeropuerto",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_transporte_aereo_GB005&styles&url=http://172.20.205.70:8080/geoserver/transporte/wms",
+                "name": "puntos_de_transporte_aereo_GB005"
+            },
+            {
+                "nombre": "Helipuerto",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_transporte_aereo_GB035&styles&url=http://172.20.205.70:8080/geoserver/transporte/wms",
+                "name": "puntos_de_transporte_aereo_GB035"
+            },
+            {
+                "nombre": "Estación de ferrocarril",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=puntos_de_transporte_ferroviario_AN070&styles&url=http://172.20.205.70:8080/geoserver/transporte/wms",
+                "name": "puntos_de_transporte_ferroviario_AN070"
+            },
+            {
+                "nombre": "Red vial nacional",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=vial_nacional&styles&url=http://172.20.205.70:8080/geoserver/transporte/wms",
+                "name": "vial_nacional"
+            },
+            {
+                "nombre": "Red vial provincial",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=vial_provincial&styles&url=http://172.20.205.70:8080/geoserver/transporte/wms",
+                "name": "vial_provincial"
+            },
+            {
+                "nombre": "Red vial terciaria",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=vial_terciaria&styles&url=http://172.20.205.70:8080/geoserver/transporte/wms",
+                "name": "vial_terciaria"
+            }
+        ]
+    }
+]
