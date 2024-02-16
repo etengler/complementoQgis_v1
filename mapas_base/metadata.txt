@@ -3,12 +3,12 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=IGN - Mapas Base
+name=IGN Plugin
 qgisMinimumVersion=3.0
-description=Este plugin permite visualizar/descargar mapas base del IGN
+description= Este plugin permite descargar mapas base, archivos wms y wfs del IGN.
 version=0.1
 author=IGN
-email=ign@ign.com
+email=ign@ign.gob.ar
 
 about=Provide a brief description of the plugin and its purpose.
 
