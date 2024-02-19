@@ -4,7 +4,7 @@
         "hijos": [
             {
                 "nombre": "Planta urbana",
-                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=areas_de_asentamientos_y_edificios_020106&styles&url=http://wms.ign.gob.ar/geoserver/asentamientos_humanos/wms",
+                "url": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&format=image/png&layers=areas_de_asentamientos_y_edificios_020106&styles&url=http://wms.ign.gob.ar/geoserver/wms",
                 "name": "areas_de_asentamientos_y_edificios_020106"
             },
             {
