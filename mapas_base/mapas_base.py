@@ -431,8 +431,8 @@ class mapasBase:
             for padres in self.capasWMS: #Chequeo json
                 pass
                 for hijo in padres['hijos']: 
-                    if self.coincidenEnLetrasConsecutivas(self.txt_busca_capa_wms.lower(), hijo['nombre'].lower()):  #si coinciden en dos o mas letras
-                        self.modelWMS.appendRow(QStandardItem(hijo['nombre'])) #la agrego a la listView
+                    if self.coincidenEnLetrasConsecutivas(self.txt_busca_capa_wms.lower(), hijo['name'].lower()):  #si coinciden en dos o mas letras
+                        self.modelWMS.appendRow(QStandardItem(hijo['name'])) #la agrego a la listView
 
 
 
@@ -468,11 +468,11 @@ class mapasBase:
             for padres in self.capasWMS: 
                 pass
                 for hijo in padres['hijos']:
-                    if self.sonIgualesPalabras(self.indiceWMS.text().lower(), hijo['nombre'].lower()): 
+                    if self.sonIgualesPalabras(self.indiceWMS.text().lower(), hijo['name'].lower()): 
                         print("son iguales" + self.indiceWMS.text() + hijo['nombre'])
                         uri=hijo['url']
                         #vlayer=QgsVectorLayer(uri, hijo['nombre'], "WFS") 
-                        rlayer=QgsRasterLayer(uri,hijo['nombre'],"WMS") 
+                        rlayer=QgsRasterLayer(uri,hijo['name'],"WMS") 
                         QgsProject.instance().addMapLayer(rlayer) #agregao capa al proyecto
 
 
@@ -517,9 +517,9 @@ class mapasBase:
             for hijo in padres['hijos']:
                 child = QTreeWidgetItem(parent)
                 child.setFlags(child.flags() | Qt.ItemIsUserCheckable)
-                child.setText(0, (hijo['nombre']))
+                child.setText(0, (hijo['name']))
                 child.setText(1, (hijo['url'])) #columna oculta!!!!!!! como agregarla a los datos del arbol? hasta ahora habia sido solo agregado el nombre al arbol. Faltaba el ingreso a la url
-                child.setText(2, (hijo['name']))#columna oculta!!!!!!! 
+                child.setText(2, (hijo['nombre']))#columna oculta!!!!!!! 
                 child.setCheckState(0, Qt.Unchecked) 
 
 
