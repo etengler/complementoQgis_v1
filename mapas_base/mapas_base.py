@@ -469,7 +469,7 @@ class mapasBase:
                 pass
                 for hijo in padres['hijos']:
                     if self.sonIgualesPalabras(self.indiceWMS.text().lower(), hijo['name'].lower()): 
-                        print("son iguales" + self.indiceWMS.text() + hijo['nombre'])
+                        #print("son iguales" + self.indiceWMS.text() + hijo['name'])
                         uri=hijo['url']
                         #vlayer=QgsVectorLayer(uri, hijo['nombre'], "WFS") 
                         rlayer=QgsRasterLayer(uri,hijo['name'],"WMS") 
