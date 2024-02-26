@@ -3,17 +3,18 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=IGN Plugin
+name=IGN ARGENTINA - Plugin
 qgisMinimumVersion=3.0
-description= Este plugin permite descargar mapas base, archivos wms y wfs del IGN.
+description= Descarga de mapas base, capas WMS y WFS del IGN de Argentina.
 version=0.1
-author=IGN
+author=IGN Argentina
 email=ign@ign.gob.ar
 
-about=Provide a brief description of the plugin and its purpose.
+about=Este plugin del Instituto Geográfico Nacional de la República Argentina permite el acceso a la información proveniente de la Base de Datos Institucional, a través de la descarga de mapas base y capas WMS y WFS, de forma sencilla e integrada en una misma aplicación.
 
-tracker=http://bugs
-repository=http://repo
+
+tracker=https://www.ign.gob.ar/contacto/
+repository=https://github.com/etengler/complementoQgis_v1
 # End of mandatory metadata
 
 # Recommended items:
@@ -23,9 +24,9 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python, plugin, argentina, mapas base, ign
 
-homepage=http://homepage
+homepage=https://www.ign.gob.ar/
 category=Plugins
 icon=icon.png
 # experimental flag

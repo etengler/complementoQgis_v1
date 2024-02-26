@@ -411,7 +411,7 @@ class mapasBase:
 
     def buscarCapaWMS(self): # entra a este metodo cada ve que se modifica algun caracter en el buscador       
         self.txt_busca_capa_wms = self.dockwidget.lineEdit_WMS.text()  #guardo el nuevo texto/caracter en la variable de clase
-        print(self.txt_busca_capa_wms) #imprime lo que esta en el buscador
+        #print(self.txt_busca_capa_wms) #imprime lo que esta en el buscador
 
         if len(self.txt_busca_capa_wms) <1: #si no hay ningun caracter
             #se ve arbol completo
@@ -428,7 +428,7 @@ class mapasBase:
             self.dockwidget.listView_WMS.setModel(self.modelWMS)
 
             #trae lista con las capas coincidentes
-            for padres in self.capasWMS: #Chequeo json
+            for padres in self.capasWMS: #Chequeo json   
                 pass
                 for hijo in padres['hijos']: 
                     if self.coincidenEnLetrasConsecutivas(self.txt_busca_capa_wms.lower(), hijo['name'].lower()):  #si coinciden en dos o mas letras
@@ -439,17 +439,16 @@ class mapasBase:
     #............................... CARGAR CAPA SELECCIONADA EN EL BUSCADOR WFS .................................#
     def cargarCapaPorBuscadorWFS(self):
         if self.indiceWFS is None: #si no seleccione nada
-            #print ("es nulo")
             pass
         else:
-            print("--" + self.indiceWFS.text()) #indice de la seleccion
+            #print("--" + self.indiceWFS.text()) #indice de la seleccion
 
             #recorro json y busco nombre igual
             for padres in self.capasWFS: 
                 pass
                 for hijo in padres['hijos']:
                     if self.sonIgualesPalabras(self.indiceWFS.text().lower(), hijo['name'].lower()):  #ver modivficar
-                        print("son iguales" + self.indiceWFS.text() + hijo['nombre'])
+                        #print("son iguales" + self.indiceWFS.text() + hijo['nombre'])
                         uri=hijo['url']
                         vlayer=QgsVectorLayer(uri, hijo['name'], "WFS") 
                         QgsProject.instance().addMapLayer(vlayer) #agregao capa al proyecto
@@ -459,19 +458,17 @@ class mapasBase:
 
     def cargarCapaPorBuscadorWMS(self):
         if self.indiceWMS is None: #si no seleccione nada
-            #print ("es nulo")
             pass
         else:
-            print("--" + self.indiceWMS.text()) #indice de la seleccion
+            #print("--" + self.indiceWMS.text()) #indice de la seleccion
 
             #recorro json y busco nombre igual 
             for padres in self.capasWMS: 
-                pass
+                pass #?
                 for hijo in padres['hijos']:
                     if self.sonIgualesPalabras(self.indiceWMS.text().lower(), hijo['name'].lower()): 
                         #print("son iguales" + self.indiceWMS.text() + hijo['name'])
                         uri=hijo['url']
-                        #vlayer=QgsVectorLayer(uri, hijo['nombre'], "WFS") 
                         rlayer=QgsRasterLayer(uri,hijo['name'],"WMS") 
                         QgsProject.instance().addMapLayer(rlayer) #agregao capa al proyecto
 
@@ -503,7 +500,7 @@ class mapasBase:
                 child.setFlags(child.flags() | Qt.ItemIsUserCheckable)
                 child.setText(0, (hijo['name']))
                 child.setText(1, (hijo['url'])) #columna oculta!!!!!!! como agregarla a los datos del arbol? hasta ahora habia sido solo agregado el nombre al arbol. Faltaba el ingreso a la url
-                child.setText(2, (hijo['nombre']))#columna oculta!!!!!!! 
+                child.setText(2, (hijo['nombre']))#columna oculta!!!!!!! #?
                 child.setCheckState(0, Qt.Unchecked)      
 
 

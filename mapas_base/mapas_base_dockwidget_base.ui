@@ -332,7 +332,7 @@ background-color: rgb(0, 148, 212);
            </rect>
           </property>
           <property name="text">
-           <string>Buscar capa WFS:</string>
+           <string>Buscar capa WMS:</string>
           </property>
          </widget>
          <widget class="QLineEdit" name="lineEdit_WMS">
