@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/plugins/mapas_base">
+    <file>argenmapGris.png</file>
+    <file>argenmapOscuro.png</file>
+    <file>argenmapTopografico.png</file>
+    <file>argenmapHibrido.png</file>
+    <file>icon.png</file>
+    <file>argenmap.png</file>
+    <file>LogoIgn.png</file>
+  </qresource>
+</RCC>
