@@ -10,6 +10,12 @@
     <height>612</height>
    </rect>
   </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
   <property name="windowTitle">
    <string>IGN Plugin</string>
   </property>
@@ -32,14 +38,30 @@
      <height>590</height>
     </size>
    </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="1">
      <widget class="QFrame" name="frame">
       <property name="enabled">
        <bool>true</bool>
       </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(227, 227, 227);</string>
+       <string notr="true">background-color: rgb(227, 227, 227);
+</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -56,6 +78,12 @@
          <height>81</height>
         </rect>
        </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(0, 148, 212);</string>
        </property>
@@ -69,11 +97,20 @@
       <widget class="QLabel" name="label_5">
        <property name="geometry">
         <rect>
-         <x>40</x>
+         <x>10</x>
          <y>20</y>
-         <width>351</width>
+         <width>381</width>
          <height>41</height>
         </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;
@@ -83,6 +120,15 @@ background-color: rgb(0, 148, 212);
        </property>
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;INSTITUTO GEOGRÁFICO NACIONAL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::NoTextInteraction</set>
        </property>
       </widget>
       <widget class="QTabWidget" name="tabWidget">
@@ -97,6 +143,9 @@ background-color: rgb(0, 148, 212);
        <property name="cursor">
         <cursorShape>ArrowCursor</cursorShape>
        </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
        <property name="styleSheet">
         <string notr="true"/>
        </property>
@@ -108,6 +157,12 @@ background-color: rgb(0, 148, 212);
          <width>22</width>
          <height>22</height>
         </size>
+       </property>
+       <property name="elideMode">
+        <enum>Qt::ElideMiddle</enum>
+       </property>
+       <property name="tabBarAutoHide">
+        <bool>true</bool>
        </property>
        <widget class="QWidget" name="tab">
         <attribute name="title">
@@ -125,8 +180,17 @@ background-color: rgb(0, 148, 212);
            <height>291</height>
           </rect>
          </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="mouseTracking">
           <bool>false</bool>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
          </property>
          <property name="styleSheet">
           <string notr="true"/>
@@ -139,6 +203,12 @@ background-color: rgb(0, 148, 212);
             <width>211</width>
             <height>191</height>
            </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(223, 223, 223);</string>
@@ -153,14 +223,29 @@ background-color: rgb(0, 148, 212);
          <widget class="QLabel" name="label">
           <property name="geometry">
            <rect>
-            <x>90</x>
+            <x>60</x>
             <y>250</y>
-            <width>81</width>
+            <width>141</width>
             <height>16</height>
            </rect>
           </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
+          </property>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#9a9a9a;&quot;&gt;Previsualización&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
          <widget class="QGroupBox" name="groupBox">
@@ -175,14 +260,31 @@ background-color: rgb(0, 148, 212);
             <height>181</height>
            </rect>
           </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="contextMenuPolicy">
            <enum>Qt::DefaultContextMenu</enum>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
           </property>
           <property name="styleSheet">
            <string notr="true"/>
           </property>
           <property name="title">
            <string notr="true">Elija una opción</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
           <property name="flat">
            <bool>false</bool>
@@ -195,12 +297,21 @@ background-color: rgb(0, 148, 212);
             <rect>
              <x>20</x>
              <y>30</y>
-             <width>89</width>
+             <width>131</width>
              <height>20</height>
             </rect>
            </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
            <property name="cursor">
             <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="autoFillBackground">
+            <bool>true</bool>
            </property>
            <property name="text">
             <string>Argenmap</string>
@@ -221,8 +332,17 @@ background-color: rgb(0, 148, 212);
              <height>20</height>
             </rect>
            </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
            <property name="cursor">
             <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="autoFillBackground">
+            <bool>true</bool>
            </property>
            <property name="styleSheet">
             <string notr="true"/>
@@ -236,12 +356,21 @@ background-color: rgb(0, 148, 212);
             <rect>
              <x>20</x>
              <y>90</y>
-             <width>131</width>
+             <width>141</width>
              <height>20</height>
             </rect>
            </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
            <property name="cursor">
             <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="autoFillBackground">
+            <bool>true</bool>
            </property>
            <property name="styleSheet">
             <string notr="true"/>
@@ -255,15 +384,21 @@ background-color: rgb(0, 148, 212);
             <rect>
              <x>20</x>
              <y>60</y>
-             <width>121</width>
+             <width>131</width>
              <height>20</height>
             </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
            </property>
            <property name="cursor">
             <cursorShape>PointingHandCursor</cursorShape>
            </property>
            <property name="autoFillBackground">
-            <bool>false</bool>
+            <bool>true</bool>
            </property>
            <property name="styleSheet">
             <string notr="true"/>
@@ -277,12 +412,21 @@ background-color: rgb(0, 148, 212);
             <rect>
              <x>20</x>
              <y>150</y>
-             <width>111</width>
+             <width>121</width>
              <height>20</height>
             </rect>
            </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
            <property name="cursor">
             <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="autoFillBackground">
+            <bool>true</bool>
            </property>
            <property name="text">
             <string>Argenmap Híbrido</string>
@@ -299,6 +443,12 @@ background-color: rgb(0, 148, 212);
            <height>31</height>
           </rect>
          </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="cursor">
           <cursorShape>PointingHandCursor</cursorShape>
          </property>
@@ -314,6 +464,12 @@ background-color: rgb(0, 148, 212);
            <width>81</width>
            <height>31</height>
           </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
          <property name="cursor">
           <cursorShape>PointingHandCursor</cursorShape>
@@ -336,6 +492,15 @@ background-color: rgb(0, 148, 212);
            <height>411</height>
           </rect>
          </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
          <widget class="QLabel" name="label_7">
           <property name="geometry">
            <rect>
@@ -344,6 +509,15 @@ background-color: rgb(0, 148, 212);
             <width>91</width>
             <height>16</height>
            </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
           </property>
           <property name="text">
            <string>Buscar capa WFS:</string>
@@ -357,6 +531,15 @@ background-color: rgb(0, 148, 212);
             <width>301</width>
             <height>31</height>
            </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);
@@ -406,6 +589,15 @@ background-color: rgb(0, 148, 212);
             <height>291</height>
            </rect>
           </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
+          </property>
           <column>
            <property name="text">
             <string>Capas WFS</string>
@@ -420,6 +612,15 @@ background-color: rgb(0, 148, 212);
             <width>401</width>
             <height>271</height>
            </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -476,6 +677,15 @@ background-color: rgb(0, 148, 212);
            <height>411</height>
           </rect>
          </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
          <widget class="QLabel" name="label_8">
           <property name="geometry">
            <rect>
@@ -484,6 +694,15 @@ background-color: rgb(0, 148, 212);
             <width>91</width>
             <height>16</height>
            </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
           </property>
           <property name="text">
            <string>Buscar capa WMS:</string>
@@ -497,6 +716,15 @@ background-color: rgb(0, 148, 212);
             <width>301</width>
             <height>31</height>
            </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -517,6 +745,12 @@ background-color: rgb(0, 148, 212);
             <height>31</height>
            </rect>
           </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="text">
            <string>Añadir WMS</string>
           </property>
@@ -529,6 +763,15 @@ background-color: rgb(0, 148, 212);
             <width>401</width>
             <height>291</height>
            </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
           </property>
           <column>
            <property name="text">
@@ -544,6 +787,15 @@ background-color: rgb(0, 148, 212);
             <width>401</width>
             <height>271</height>
            </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -571,6 +823,12 @@ background-color: rgb(0, 148, 212);
             <height>31</height>
            </rect>
           </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="cursor">
            <cursorShape>PointingHandCursor</cursorShape>
           </property>
@@ -591,14 +849,23 @@ background-color: rgb(0, 148, 212);
       <widget class="QPushButton" name="button_link">
        <property name="geometry">
         <rect>
-         <x>280</x>
+         <x>270</x>
          <y>90</y>
-         <width>81</width>
+         <width>91</width>
          <height>23</height>
         </rect>
        </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="cursor">
         <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
        </property>
        <property name="text">
         <string>Visor de mapas</string>
@@ -613,8 +880,17 @@ background-color: rgb(0, 148, 212);
          <height>23</height>
         </rect>
        </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="cursor">
         <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
        </property>
        <property name="text">
         <string>Geoservicios</string>
@@ -628,6 +904,12 @@ background-color: rgb(0, 148, 212);
          <width>541</width>
          <height>81</height>
         </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(0, 148, 212);</string>
@@ -645,8 +927,17 @@ background-color: rgb(0, 148, 212);
          <height>23</height>
         </rect>
        </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="cursor">
         <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
        </property>
        <property name="text">
         <string>Capas SIG</string>
