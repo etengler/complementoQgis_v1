@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ui version="4.0" idbasedtr="true">
+<ui version="4.0">
  <class>mapasBaseDockWidgetBase</class>
  <widget class="QDockWidget" name="mapasBaseDockWidgetBase">
   <property name="geometry">
@@ -15,6 +15,9 @@
   </property>
   <property name="autoFillBackground">
    <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 0, 0);</string>
   </property>
   <property name="windowTitle">
    <string>IGN Plugin</string>
@@ -44,6 +47,9 @@
    <property name="autoFillBackground">
     <bool>true</bool>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="1">
      <widget class="QFrame" name="frame">
@@ -61,6 +67,7 @@
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
 </string>
       </property>
       <property name="frameShape">
@@ -140,6 +147,15 @@ background-color: rgb(0, 148, 212);
          <height>421</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
        <property name="cursor">
         <cursorShape>ArrowCursor</cursorShape>
        </property>
@@ -147,7 +163,10 @@ background-color: rgb(0, 148, 212);
         <bool>false</bool>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(227, 227, 227);</string>
+        <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+
+</string>
        </property>
        <property name="currentIndex">
         <number>0</number>
@@ -161,10 +180,22 @@ background-color: rgb(0, 148, 212);
        <property name="elideMode">
         <enum>Qt::ElideMiddle</enum>
        </property>
+       <property name="documentMode">
+        <bool>false</bool>
+       </property>
+       <property name="tabsClosable">
+        <bool>false</bool>
+       </property>
+       <property name="movable">
+        <bool>false</bool>
+       </property>
        <property name="tabBarAutoHide">
         <bool>true</bool>
        </property>
        <widget class="QWidget" name="tab">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
         <attribute name="title">
          <string>Mapas Base</string>
         </attribute>
@@ -193,7 +224,7 @@ background-color: rgb(0, 148, 212);
           <bool>false</bool>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">color: rgb(0, 0, 0);</string>
          </property>
          <widget class="QLabel" name="label_3">
           <property name="geometry">
@@ -268,6 +299,8 @@ background-color: rgb(0, 148, 212);
           </property>
           <property name="font">
            <font>
+            <weight>50</weight>
+            <bold>false</bold>
             <stylestrategy>PreferAntialias</stylestrategy>
            </font>
           </property>
@@ -278,16 +311,17 @@ background-color: rgb(0, 148, 212);
            <bool>false</bool>
           </property>
           <property name="styleSheet">
-           <string notr="true"/>
+           <string notr="true">background-color: rgb(220, 220, 220);
+color: rgb(0, 0, 0);</string>
           </property>
           <property name="title">
-           <string notr="true">Elija una opción</string>
+           <string>Elija una opción </string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignBottom|Qt::AlignHCenter</set>
           </property>
           <property name="flat">
-           <bool>false</bool>
+           <bool>true</bool>
           </property>
           <property name="checkable">
            <bool>false</bool>
@@ -312,9 +346,6 @@ background-color: rgb(0, 148, 212);
            </property>
            <property name="autoFillBackground">
             <bool>false</bool>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color: rgb(0, 0, 0);</string>
            </property>
            <property name="text">
             <string>Argenmap</string>
@@ -376,7 +407,7 @@ background-color: rgb(0, 148, 212);
             <bool>false</bool>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(0, 0, 0);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>Argenmap Topográfico</string>
@@ -404,7 +435,7 @@ background-color: rgb(0, 148, 212);
             <bool>false</bool>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(0, 0, 0);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>Argenmap Gris</string>
@@ -430,9 +461,6 @@ background-color: rgb(0, 148, 212);
            </property>
            <property name="autoFillBackground">
             <bool>false</bool>
-           </property>
-           <property name="styleSheet">
-            <string notr="true"/>
            </property>
            <property name="text">
             <string>Argenmap Híbrido</string>
@@ -461,6 +489,9 @@ background-color: rgb(0, 148, 212);
          <property name="autoFillBackground">
           <bool>false</bool>
          </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(208, 208, 208);</string>
+         </property>
          <property name="text">
           <string>Añadir mapa</string>
          </property>
@@ -486,12 +517,18 @@ background-color: rgb(0, 148, 212);
          <property name="autoFillBackground">
           <bool>false</bool>
          </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(208, 208, 208);</string>
+         </property>
          <property name="text">
           <string>Cerrar</string>
          </property>
         </widget>
        </widget>
        <widget class="QWidget" name="tab_3">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
         <attribute name="title">
          <string>Descarga WFS</string>
         </attribute>
@@ -513,6 +550,9 @@ background-color: rgb(0, 148, 212);
          <property name="autoFillBackground">
           <bool>false</bool>
          </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);</string>
+         </property>
          <widget class="QLabel" name="label_7">
           <property name="geometry">
            <rect>
@@ -530,9 +570,6 @@ background-color: rgb(0, 148, 212);
           </property>
           <property name="autoFillBackground">
            <bool>false</bool>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0);</string>
           </property>
           <property name="text">
            <string>Buscar capa WFS:</string>
@@ -591,6 +628,9 @@ background-color: rgb(0, 148, 212);
             <height>31</height>
            </rect>
           </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(208, 208, 208);</string>
+          </property>
           <property name="text">
            <string>Añadir WFS</string>
           </property>
@@ -611,7 +651,13 @@ background-color: rgb(0, 148, 212);
            </sizepolicy>
           </property>
           <property name="autoFillBackground">
-           <bool>false</bool>
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(175, 175, 175);
+selection-background-color: rgb(0, 148, 212);
+</string>
           </property>
           <column>
            <property name="text">
@@ -619,9 +665,9 @@ background-color: rgb(0, 148, 212);
            </property>
            <property name="background">
             <color>
-             <red>227</red>
-             <green>227</green>
-             <blue>227</blue>
+             <red>255</red>
+             <green>255</green>
+             <blue>255</blue>
             </color>
            </property>
           </column>
@@ -650,7 +696,8 @@ background-color: rgb(0, 148, 212);
            <bool>true</bool>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(175, 175, 175);</string>
           </property>
          </widget>
          <widget class="QPushButton" name="pushButton_WFS">
@@ -661,6 +708,9 @@ background-color: rgb(0, 148, 212);
             <width>81</width>
             <height>31</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(208, 208, 208);</string>
           </property>
           <property name="text">
            <string>Añadir WFS</string>
@@ -678,6 +728,9 @@ background-color: rgb(0, 148, 212);
           <property name="cursor">
            <cursorShape>PointingHandCursor</cursorShape>
           </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(208, 208, 208);</string>
+          </property>
           <property name="text">
            <string>Cerrar</string>
           </property>
@@ -692,6 +745,9 @@ background-color: rgb(0, 148, 212);
         </widget>
        </widget>
        <widget class="QWidget" name="tab_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
         <attribute name="title">
          <string>Descarga WMS</string>
         </attribute>
@@ -712,6 +768,9 @@ background-color: rgb(0, 148, 212);
          </property>
          <property name="autoFillBackground">
           <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);</string>
          </property>
          <widget class="QLabel" name="label_8">
           <property name="geometry">
@@ -778,6 +837,9 @@ background-color: rgb(0, 148, 212);
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(208, 208, 208);</string>
+          </property>
           <property name="text">
            <string>Añadir WMS</string>
           </property>
@@ -800,15 +862,19 @@ background-color: rgb(0, 148, 212);
           <property name="autoFillBackground">
            <bool>true</bool>
           </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(175, 175, 175);</string>
+          </property>
           <column>
            <property name="text">
             <string>Capas WMS</string>
            </property>
            <property name="background">
             <color>
-             <red>227</red>
-             <green>227</green>
-             <blue>227</blue>
+             <red>255</red>
+             <green>255</green>
+             <blue>255</blue>
             </color>
            </property>
           </column>
@@ -832,7 +898,8 @@ background-color: rgb(0, 148, 212);
            <bool>true</bool>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(175, 175, 175);</string>
           </property>
          </widget>
          <widget class="QPushButton" name="pushButton_WMS">
@@ -843,6 +910,9 @@ background-color: rgb(0, 148, 212);
             <width>81</width>
             <height>31</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(208, 208, 208);</string>
           </property>
           <property name="text">
            <string>Añadir WMS</string>
@@ -865,6 +935,9 @@ background-color: rgb(0, 148, 212);
           </property>
           <property name="cursor">
            <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(208, 208, 208);</string>
           </property>
           <property name="text">
            <string>Cerrar</string>
@@ -902,7 +975,7 @@ background-color: rgb(0, 148, 212);
         <bool>false</bool>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(0, 0, 0);</string>
+        <string notr="true">background-color: rgb(208, 208, 208);</string>
        </property>
        <property name="text">
         <string>Visor de mapas</string>
@@ -928,6 +1001,9 @@ background-color: rgb(0, 148, 212);
        </property>
        <property name="autoFillBackground">
         <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(208, 208, 208);</string>
        </property>
        <property name="text">
         <string>Geoservicios</string>
@@ -976,6 +1052,9 @@ background-color: rgb(0, 148, 212);
        <property name="autoFillBackground">
         <bool>false</bool>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(208, 208, 208);</string>
+       </property>
        <property name="text">
         <string>Capas SIG</string>
        </property>
@@ -992,7 +1071,6 @@ background-color: rgb(0, 148, 212);
    </layout>
   </widget>
  </widget>
- <layoutdefault spacing="6" margin="9"/>
  <tabstops>
   <tabstop>tabWidget</tabstop>
   <tabstop>radioButton_1</tabstop>

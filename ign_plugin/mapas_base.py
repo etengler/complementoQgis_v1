@@ -47,6 +47,7 @@ import qgis.utils ###
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QTreeWidgetItem, QTreeWidgetItemIterator
 from PyQt5.QtWidgets import * 
+from PyQt5.QtGui import QBrush, QColor
 
 import json
 import webbrowser
@@ -475,6 +476,7 @@ class mapasBase:
             parent = QtWidgets.QTreeWidgetItem(self.dockwidget.treeWidget_wfs)
             parent.setText(0, (padres['padre']))
             parent.setFlags(parent.flags() | Qt.ItemIsUserCheckable | Qt.ItemIsTristate) #pone caja checkbox en padre:| Qt.ItemIsTristate
+            parent.setForeground(0, QBrush(QColor(0, 0, 0)))  # Texto negro para el padre
 
             for hijo in padres['hijos']:
                 child = QTreeWidgetItem(parent)
@@ -482,7 +484,8 @@ class mapasBase:
                 child.setText(0, (hijo['name']))
                 child.setText(1, (hijo['url'])) #columna oculta!!!!!!! como agregarla a los datos del arbol? hasta ahora habia sido solo agregado el nombre al arbol. Faltaba el ingreso a la url
                 child.setText(2, (hijo['nombre']))#columna oculta!!!!!!! #?
-                child.setCheckState(0, Qt.Unchecked)      
+                child.setCheckState(0, Qt.Unchecked)  
+                child.setForeground(0, QBrush(QColor(0, 0, 0)))  # Texto negro para el hijo    
 
 
 
